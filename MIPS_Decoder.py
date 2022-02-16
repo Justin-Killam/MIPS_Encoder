@@ -21,3 +21,12 @@ code=File_Read(inFile)
 
 for line in code:
     arrayLoc=instruction_names.index(line[0])
+    
+    #R-Type
+    if(opcodes=="000000"):
+    
+    #J-Type
+    elif(opcodes=="000010"):
+    
+    #I-Type
+    else:
