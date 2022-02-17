@@ -1,0 +1,17 @@
+addi $s0 $0 0
+addi $s1 $0 5
+addi $s2 $0 1
+add $t3 $0 $0
+beq $s0 $s1 6
+lw $t0 0 $s0
+sllv $t0 $t0 $s1
+sw $t0 31 $s0
+add $s0 $s2 $s0
+add $t3 $t3 $t0
+j 4
+sll $0 $0 0
+sll $0 $0 0
+sll $0 $0 0
+sll $0 $0 0
+sll $0 $0 0
+sll $0 $0 0
