@@ -9,9 +9,8 @@ sw $t0 31 $s0
 add $s0 $s2 $s0
 add $t3 $t3 $t0
 j 4
-sll $0 $0 0
-sll $0 $0 0
-sll $0 $0 0
-sll $0 $0 0
-sll $0 $0 0
-sll $0 $0 0
+nop
+nop
+nop
+
+
